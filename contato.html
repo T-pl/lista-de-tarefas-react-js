@@ -7,6 +7,7 @@
     <title>Entre em Contato</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="contato.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="cabecalho">
@@ -21,10 +22,10 @@
                         <a href="index.html">Home</a>                     
                     </li>
                     <li class="itens-nav"> 
-                        <a href="">Serviços</a>                    
+                        <a href="servicos.html">Serviços</a>                    
                     </li>
                     <li class="itens-nav"> 
-                        <a href="">Contato</a> 
+                        <a href="contato.html">Contato</a> 
                     </li>
     
                 </ul>
@@ -47,8 +48,8 @@
             <label for="mensagem">Mensagem</label>
             <textarea name="" id="mensagem" cols="72" rows="10"></textarea>
 
-            <div>
-                <p>Escolha a melhor forma de contato para te atendermos:</p>
+            <fieldset>
+                <legend>Escolha a melhor forma de contato para te atendermos:</legend>
 
                 <label for="radio-email"><input name="contato" type="radio" value="email" id="radio-email">email</label>
                 
@@ -58,23 +59,60 @@
 
                 <label for="radio-whats"><input name="contato" type="radio" value="cel" id="radio-whats" checked>Whatsapp</label>
                 
-            </div>
+            </fieldset>
 
-            <div>
-                <p>Qual o melhor horário para você?</p>
+            <fieldset>
+                <legend>Qual o melhor horário para você?</legend>
                 <select>
                     <option value="">Manhã</option>
                     <option value="">Tarde</option>
                     <option value="">Noite</option>
                 </select>
-            </div>
+            </fieldset>
 
-            <label> Quer receber nossas novidades e promoções via whats? <input class="checkbox" type="checkbox"> Sim </label>
+            <label> Quer receber nossas novidades e promoções via whats? <input class="checkbox" type="checkbox"> </label>
+                
+                
+                
+                 
 
-            <input  type="submit" value="Enviar formulário">
+            <input class="enviar"  type="submit" value="Enviar formulário">
             
             
         </form>
+
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horário</th> 
+                </tr>
+            </thead> 
+
+            <tbody>
+                <tr> 
+                    <td>Segunda</td>
+                    <td>8h às 20h</td>
+                </tr>
+                <tr> 
+                    <td>Quarta</td>
+                    <td>8h às 20h</td> 
+                </tr>
+                <tr> 
+                    <td>Sexta</td>
+                    <td>8h às 20h</td>
+                </tr>
+                <tr> 
+                    <td>Sábado</td>
+                    <td>8h às 18h</td>
+                </tr>
+
+            </tbody>
+            
+           
+        </table>
+
     </main>
 
 

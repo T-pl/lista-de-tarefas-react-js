@@ -1,3 +1,9 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
 header{
     background: #BBBBBB;
     padding: 20px 0;
@@ -48,7 +54,7 @@ form{
 }
 
 
-form label, form p{
+form label, form legend{
     display: block;
     font-size: 20px;
     margin-bottom: 10px;
@@ -65,6 +71,39 @@ form label, form p{
     margin: 20px 0;
 }
 
+.enviar{
+     width: 55%;
+     padding: 15px 0;
+     border-radius: 5px;
+     background: orange;
+     color: #FFFFFF;
+     font-weight: bold;
+     font-size: 18px;
+     border: none;
+     transition: 0.5s all;
+     cursor: pointer;
+}
+
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.2);
+    
+}
+
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: #555555;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
 
 
 

@@ -1,5 +1,7 @@
 
-
+body{
+    font-family: 'Roboto', sans-serif;
+}
 .cabecalho{
     background: #BBBBBB;
     padding: 20px 0;
@@ -34,58 +36,118 @@ nav a {
 }
 
 
-#banner{
+
+.banner{
     width: 100%;
     
 } 
 
 .principal{
-    background: #CCCCCC;
-    padding: 30px;
+    padding: 3em 0;
+    text-align: center;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
 }
 
-.logo{
-    padding-left: 20px;
-}
 
 .titulo-principal{
     text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
     
 }
 
-p{
+
+
+.principal p{
+    margin: 0 0 1em;
     text-align: center;
 
 }
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.utensilios{
+    width: 150px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.mapa{
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888) ;
+}
+
+.conteudomapa{
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+.mapa p{
+    margin-bottom: 3em;
+    text-align: center;
+}
+
+
+.beneficios{
+    background: #888888;
+    padding: 3em 0;
+
+}
+
+
+.conteudo{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+
+} 
+
+.itens{
+    line-height: 1.5;
+}
+
+.itens:first-child{
+    font-weight: bold;
+}
+
+.itens:before{
+    content: "\2730";
+}
+
 
 #missao{
     text-align: center;
     font-size: 20px;
-    color: rgb(255,0,0);
-}
-
-.beneficios{
-    background: #ffffff;
-    padding: 20px;
+    font-weight: bold;
 }
 
 
-.lista-beneficios{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-} 
-
-.itens{
-
-    font-style: italic;
-
-}
 
 .imagem-beneficios{
-    width: 50%;
+    width: 60%;
 }
+
+
+.video{
+    margin: 2em auto;
+}
+
+
 
 
 footer{
