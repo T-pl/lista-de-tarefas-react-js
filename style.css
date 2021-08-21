@@ -44,7 +44,7 @@ nav a {
 
 .principal{
     padding: 3em 0;
-    text-align: center;
+    
     background: #FEFEFE;
     width: 940px;
     margin: 0 auto;
@@ -63,7 +63,6 @@ nav a {
 
 .principal p{
     margin: 0 0 1em;
-    text-align: center;
 
 }
 
@@ -140,13 +139,36 @@ nav a {
 
 .imagem-beneficios{
     width: 60%;
+    opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px #000000;
+}
+
+.imagem-beneficios:hover{
+    opacity: 0.3;
 }
 
 
 .video{
     margin: 2em auto;
+    width: 560px;
 }
 
+
+@media screen and (max-width: 480px) {
+	.menu, .principal, .conteudomapa, .video {
+		width: auto;
+	}
+	.logo {
+		text-align: center;
+	}
+	nav {
+		position: static;
+	}
+	.lista-beneficios, .imagem-beneficios {
+		width: 100%;
+	}
+}
 
 
 

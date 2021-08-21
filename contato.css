@@ -106,6 +106,20 @@ td, th{
 }
 
 
+@media screen and (max-width: 480px) {
+	.menu, main {
+		width: auto;
+	}
+	.logo {
+		text-align: center;
+	}
+	nav {
+		position: static;
+	}
+	.lista-beneficios, .imagem-beneficios {
+		width: 100%;
+	}
+}
 
 
 
