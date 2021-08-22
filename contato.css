@@ -60,6 +60,12 @@ form label, form legend{
     margin-bottom: 10px;
 }
 
+.horario{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+}
+
 .inputpadrao{
     display: block;
     margin-bottom: 20px;
