@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+<<<<<<< HEAD
     
     <head>
         <meta charset="UTF-8">
@@ -147,6 +148,137 @@
         </footer>
         <!-- Fim do Footer -->
     </body>
+=======
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entre em Contato</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="contato.css">
+    <link rel="shortcut icon" href="./imagenservicos/favi.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecalho">
+
+        <div class="menu"> 
+            <h1 class="logo"><img src="./imagenservicos/logo.png" alt="Logo Barbearia Alura"></h1>
+            
+            <nav>
+                
+                <ul class="lista">
+                    <li class="itens-nav"> 
+                        <a href="index.html">Home</a>                     
+                    </li>
+                    <li class="itens-nav"> 
+                        <a href="servicos.html">Serviços</a>                    
+                    </li>
+                    <li class="itens-nav"> 
+                        <a href="contato.html">Contato</a> 
+                    </li>
+    
+                </ul>
+                
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+
+        <form action="">
+            <label for="nomecompleto">Nome Completo</label>
+            <input class="inputpadrao" type="text" id="nomecompleto" required>
+
+            <label for="email">email</label>
+            <input class="inputpadrao" type="email" id="email" required placeholder="email@dominio.com">
+
+            <label for="cel">Celular</label>
+            <input class="inputpadrao" type="tel" id="cel" required placeholder="(XX) XXXXX-XXXX">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="" id="mensagem" cols="72" rows="10"></textarea>
+
+            <fieldset>
+                <legend>Escolha a melhor forma de contato para te atendermos:</legend>
+
+                <label for="radio-email"><input name="contato" type="radio" value="email" id="radio-email">email</label>
+                
+
+                <label for="radio-tel"><input name="contato" type="radio" value="tel" id="radio-tel">Telefone Fixo</label>
+                
+
+                <label for="radio-whats"><input name="contato" type="radio" value="cel" id="radio-whats" checked>Whatsapp</label>
+                
+            </fieldset>
+
+            <fieldset>
+                <legend>Qual o melhor horário para você?</legend>
+                <select class="horario">
+                    <option value="">Manhã</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noite</option>
+                </select>
+            </fieldset>
+
+            <label> Quer receber nossas novidades e promoções via whats? <input class="checkbox" type="checkbox"> </label>
+                
+                
+                
+                 
+
+            <input class="enviar"  type="submit" value="Enviar formulário">
+            
+            
+        </form>
+
+
+        <table>
+
+
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horário</th> 
+                </tr>
+            </thead> 
+
+            <tbody>
+                <tr> 
+                    <td>Segunda</td>
+                    <td>8h às 20h</td>
+                </tr>
+                <tr> 
+                    <td>Quarta</td>
+                    <td>8h às 20h</td> 
+                </tr>
+                <tr> 
+                    <td>Sexta</td>
+                    <td>8h às 20h</td>
+                </tr>
+                <tr> 
+                    <td>Sábado</td>
+                    <td>8h às 18h</td>
+                </tr>
+
+            </tbody>
+            
+           
+        </table>
+
+    </main>
+
+
+
+    <footer>
+        <img src="./imagenservicos/logo-branco.png" alt="Logo da Barbearia Alura">
+
+        <p class="copyright">&copy; Copyright Barbearia Alura | Tiago Ferreira | 2021</p>
+    </footer>
+    
+</body>
+>>>>>>> 8366501ee9a6e69c706727870ab41b84915ad3a7
 
 
 </html>
