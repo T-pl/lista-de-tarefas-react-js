@@ -9,6 +9,10 @@ header{
     padding: 20px 0;
 }
 
+/* ---------------------------- */
+/* INICIO DA BARRA DE NAVEGAÇÃO */
+/* ---------------------------- */
+
 .menu{
     position: relative;
     width: 940px;
@@ -43,11 +47,19 @@ nav a:hover{
     text-decoration: underline;
 }
 
+/* ---------------------- */
+/* INICIO DO CONTEÚDO PRINCIPAL */
+/* ---------------------- */
+
 
 main{
     width: 940px;
     margin: 0 auto;
 }
+
+/* ---------------------- */
+/* INICIO DO FORMULÁRIO */
+/* ---------------------- */
 
 form{
     margin: 40px 0;
@@ -59,6 +71,10 @@ form label, form legend{
     font-size: 20px;
     margin-bottom: 10px;
 }
+
+/* ---------------------- */
+/* HORÁRIO */
+/* ---------------------- */
 
 .horario{
     width: 100px;
@@ -77,6 +93,10 @@ form label, form legend{
     margin: 20px 0;
 }
 
+/* ---------------------- */
+/* BOTÃO DE ENVIAR */
+/* ---------------------- */
+
 .enviar{
      width: 55%;
      padding: 15px 0;
@@ -92,9 +112,14 @@ form label, form legend{
 
 .enviar:hover{
     background: darkorange;
-    transform: scale(1.2);
+    transform: scale(1.01);
     
 }
+
+
+/* ---------------------- */
+/* TABELA DE HORÁRIO */
+/* ---------------------- */
 
 table{
     margin: 20px 0 40px;
@@ -110,6 +135,10 @@ td, th{
     border: 1px solid #000000;
     padding: 8px 15px;
 }
+
+/* ---------------------- */
+/* RESPONSIVIDADE(EM IMPLEMENTAÇÃO) */
+/* ---------------------- */
 
 
 /* @media screen and (max-width: 480px) {
@@ -130,20 +159,13 @@ td, th{
 
 
 
-
-
-
-
-
-
-
-
-
-
+/* ---------------------- */
+/* INICIO DO FOOTER */
+/* ---------------------- */
 
 footer{
     text-align: center;
-    background: url("./imagenservicos/bg.jpg");
+    background: url("/imagenservicos/bg.jpg");
     padding: 40px 0;
 }
 

@@ -7,6 +7,10 @@ header{
     padding: 20px 0;
 }
 
+/* ---------------------------- */
+/* INICIO DA BARRA DE NAVEGAÇÃO */
+/* ---------------------------- */
+
 .menu{
     position: relative;
     width: 940px;
@@ -37,9 +41,13 @@ nav a {
 
 nav a:hover{
 
-    color: #f30b0b;
+    color: #f1f1f1;
     text-decoration: underline;
 }
+
+/* ----------------------------*/
+/* INICO DO CONTEÚDO PRINCIPAL */
+/* ----------------------------*/
 
 .servicos{
     width: 940px;
@@ -90,10 +98,13 @@ nav a:hover{
     font-weight: bold;
     margin-top: 10px;
 }
+/* ---------------------- */
+/* INICIO DO FOOTER */
+/* ---------------------- */
 
 footer{
     text-align: center;
-    background: url("./imagenservicos/bg.jpg");
+    background: url("/imagenservicos/bg.jpg");
     padding: 40px 0;
 }
 

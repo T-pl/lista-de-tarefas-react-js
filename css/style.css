@@ -7,6 +7,10 @@ body{
     padding: 20px 0;
 }
 
+/* ---------------------------- */
+/* INICIO DA BARRA DE NAVEGAÇÃO */
+/* ---------------------------- */
+
 .menu{
     position: relative;
     width: 940px;
@@ -35,12 +39,19 @@ nav a {
     
 }
 
+nav a:hover{
 
+    color: #f1f1f1;
+    text-decoration: underline;
+}
 
 .banner{
     width: 100%;
     
 } 
+/* ---------------------------- */
+/* INICIO DO CONTEÚDO PRINCIPAL */
+/* ---------------------------- */
 
 .principal{
     padding: 3em 0;
@@ -80,13 +91,18 @@ nav a {
     margin: 0 20px 20px 0;
 }
 
+/* ---------------------------- */
+/* MAPA DE LOCALIZAÇÃO */
+/* ---------------------------- */
+
 .mapa{
     padding: 3em 0;
-    background: linear-gradient(#FEFEFE, #888888) ;
+    background: linear-gradient(#FEFEFE, #888888);
 }
 
 .conteudomapa{
-    width: 940px;
+    width: 90%;
+
     margin: 0 auto;
 
 }
@@ -96,6 +112,9 @@ nav a {
     text-align: center;
 }
 
+/* ---------------------------- */
+/* INICIO DOS BENEFÍCIOS */
+/* ---------------------------- */
 
 .beneficios{
     background: #888888;
@@ -128,6 +147,9 @@ nav a {
     content: "\2730";
 }
 
+/* ---------------------------- */
+/* ---------MISSÃO------------- */
+/* ---------------------------- */
 
 #missao{
     text-align: center;
@@ -135,7 +157,9 @@ nav a {
     font-weight: bold;
 }
 
-
+/* ---------------------------- */
+/* IMAGEM DOS BENEFÍCIOS */
+/* ---------------------------- */
 
 .imagem-beneficios{
     width: 60%;
@@ -154,8 +178,11 @@ nav a {
     width: 560px;
 }
 
+/* ---------------------- */
+/* RESPONSIVIDADE(EM IMPLEMENTAÇÃO) */
+/* ---------------------- */
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
 	.menu, .principal, .conteudomapa, .video {
 		width: auto;
 	}
@@ -168,13 +195,15 @@ nav a {
 	.lista-beneficios, .imagem-beneficios {
 		width: 100%;
 	}
-}
+} */
 
-
+/* ---------------------- */
+/* INICIO DO FOOTER */
+/* ---------------------- */
 
 footer{
     text-align: center;
-    background: url("./imagenservicos/bg.jpg");
+    background: url("/imagenservicos/bg.jpg");
     padding: 40px 0;
 }
 
