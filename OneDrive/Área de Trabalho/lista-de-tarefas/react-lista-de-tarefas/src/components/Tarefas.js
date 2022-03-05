@@ -15,7 +15,7 @@ function Tarefas(props) {
               Deletar <span className="visually-hidden">{props.name}</span>
             </button>
           </div>
-        </li>
+    </li>
   );
 }
 
