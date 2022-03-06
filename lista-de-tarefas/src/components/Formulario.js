@@ -6,6 +6,7 @@ function Formulario(props) {
     setName(e.target.value);
   }
   function enviarForm(e) {
+
     e.preventDefault();
     props.addTarefa(name);
     setName(e.target.value);
@@ -26,7 +27,8 @@ function Formulario(props) {
         name="text"
         autoComplete="off"
         value={name}
-        onChange ={entradaInput}
+        onChange={entradaInput}
+        
       />
       <button
         type="submit"
