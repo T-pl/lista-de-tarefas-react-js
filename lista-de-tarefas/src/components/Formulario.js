@@ -1,8 +1,17 @@
-function Formulario() {
+import React, { useState } from "react";
+
+function Formulario(props) {
+  const [name, setName] = useState('');
+  function entradaInput(e) {
+    setName(e.target.value);
+  }
   function enviarForm(e) {
     e.preventDefault();
-    alert('Hello, world!');
+    props.addTarefa(name);
+    setName(e.target.value);
+    setName("");
   }
+
   return (
     <form onSubmit={enviarForm}>
       <h2 className="label-wrapper">
@@ -16,6 +25,8 @@ function Formulario() {
         className="input input__lg"
         name="text"
         autoComplete="off"
+        value={name}
+        onChange ={entradaInput}
       />
       <button
         type="submit"
